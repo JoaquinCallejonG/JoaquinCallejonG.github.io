@@ -2,9 +2,44 @@
 
 .logo{
     width: 150px;
-
 }
 
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+a{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+body{
+    background-color: #FEF9E7 ;
+}
+.colorIconoNav{
+    color:#1D8348;
+}
+nav{
+    background-color: #D0D3D4 ;
+}
+
+p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+}
+
+.letrasNav{
+    color:#1D8348;
+}
 .separador{
     width: 100%;
     overflow: hidden;
