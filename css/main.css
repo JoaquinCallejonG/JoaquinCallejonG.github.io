@@ -13,6 +13,10 @@ h2{
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
 }
+li{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
 h3{
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
@@ -21,7 +25,10 @@ a{
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
 }
-
+p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
 body{
     background-color: #FEF9E7 ;
 }
@@ -36,7 +43,12 @@ p{
     font-family: 'Roboto Slab', serif;
     font-weight: 200;
 }
-
+.mv{
+    width: 90%;
+    height: auto;
+    background-color: #FFFF66;
+    border-radius: 10%;
+}
 .letrasNav{
     color:#1D8348;
 }
@@ -72,7 +84,10 @@ p{
     height: 500px;
     display: block;
 }
-
+.tamañoTarjeta{
+    height: 100px;
+    width: 100px;
+}
 .fondo{
     height: 400px;
     width: 300px;

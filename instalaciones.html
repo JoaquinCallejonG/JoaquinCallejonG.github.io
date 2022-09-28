@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>instalaciones</title>
 
+    <link rel="stylesheet" href="css\main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;500;700&display=swap" rel="stylesheet">
+
     <!-- CSS only -->
     <link rel="stylesheet" href="css\main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -36,41 +41,62 @@
     </nav>
 
     <div class="container pt-5 w-75 mx-auto text-center">
-        <h1 class="text-center pb-5">Instalaciones</h1>
-        <img class="fondo w-100" src="images/instalaciones.jpeg" alt="">
+        <h1 class="text-center pb-5">INSTALACIONES</h1>
+        
     </div>
+    <div class="card bg-dark text-white">
+        <img src="images/instalaciones.jpeg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+        </div>
+    </div>
+    
     <section class="conteiner w-75 mx-auto text-center pt-5 pb-5">
         <p class="text-center text-dark text-shadow pb-5">Contamos con infraestructura de 4.500 metros cuadrados, dividido en tres multi naves, para distribuir las múltiples especies que generamos a lo largo de todo el año. Además de poseer diversos espacios destinados al aclimatamiento de las plantas, dicha sección está pensada en evitar el estrés al momento del trasplante en campo, de esta manera disminuyendo el margen de pérdida en la primera etapa del cultivo.</p> 
         
         <p class="text-center text-dark text-shadow pb-5">Cada multinave se encuentra subdividida en tres módulos, en donde cada uno de ellos está implementado con las principales tecnologías del mercado, buscando generar beneficio directo en la producción de plantas. Es por esto, que contamos con las herramientas que nos ayudan a optimizar y garantizar un riego, nutrición y cuidado para obtener la mejor calidad posible.</p>    
     </section>
-    <hr class="container w-75 bg-success pb-1">
-    <h3 class="text-center pb-3">Nuestros Viveros</h3>
+
+    <h3 class="text-center pb-3">NUESTROS VIVEROS</h3>
 
     <div class="background-overlay text-black py-5 pb-5 conteiner w-75 mx-auto text-center">
-        <div class="container">
-            <div class="row d-flex h-100">
-                <div class="col-sm-6">
-                    <img src="images/7.png" class="img-fluid d-none d-sm-block">
-                </div>
-                <div class="col-sm-6 text-center justify-content-center align-self-center">
-                    <img src="images/INVERNADERO.jpg" class="img-fluid d-none d-sm-block">
-                </div>
+        <div class="card-group">
+            <div class="card">
+              <img src="images/7.png" class="card-img-top " alt="...">
+              <div class="card-body">
+                    <h3 class="pb-3 text-center">Estructura que soporta mas de 100.000 bandejas</h3>
+              </div>
             </div>
+
+            <div class="card">
+              <img src="images/INVERNADERO.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                    <h3 class="pb-3 text-center">Climatizacion y necesidades aptas para el crecimiento</h3>
+              </div>
+            </div>
+
+          </div>
         </div>
     </div>
 
 
-    <footer>
-        <div class=" p-3 bg-dark">
-            <div class="row text-center text-black">
-                <div class="col ml-auto">
-                    <p>Copyright &copy; 2022</p>
-                    <img class="logo" src="images/Logo-altue.png" alt="">
+    <div class=" w-100 bg-dark">
+        <footer class="py-3 my-4 ">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">INICIO</a></li>
+            <li class="nav-item"><a href="instalaciones.html" class="nav-link px-2 text-muted">INSTALACIONES</a></li>
+            <li class="nav-item"><a href="servicios.html" class="nav-link px-2 text-muted">SERVICIOS</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">CONTACTANOS</a></li>
+          </ul>
+            <div class=" p-3 bg-dark">
+                <div class="row text-center text-black">
+                    <div class="col ml-auto">
+                        <p>Copyright &copy; 2022</p>
+                        <img class="logo" src="images/Logo-altue.png" alt="">
+                    </div>
                 </div>
-            </div>
-        </div>       
-    </footer>
+            </div> 
+        </footer>
+      </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
