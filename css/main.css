@@ -28,6 +28,7 @@ a{
 p{
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
+
 }
 body{
     background-color: #FEF9E7 ;
@@ -41,7 +42,7 @@ nav{
 
 p{
     font-family: 'Roboto Slab', serif;
-    font-weight: 200;
+    font-weight: 100;
 }
 .mv{
     width: 90%;
@@ -85,11 +86,38 @@ p{
     display: block;
 }
 .tamañoTarjeta{
-    height: 70px;
-    width: 70px;
+    height: 90px;
+    width: 90px;
+}
+.colorIcono{
+    fill: #16A085;
 }
 .fondo{
     height: 400px;
     width: 300px;
     display: block;
+}
+.tamañoBotonCarrusel{
+    max-height: 300;
+}
+.fondo{
+    overflow: hidden;
+}
+
+.tamañoServicios{
+    height: 300px;
+    width: 300px;
+    display: block; 
+}
+
+#row-datos{
+    background-color: #16A085;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+.circulo{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #ffd54f;
 }
