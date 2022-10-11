@@ -33,9 +33,7 @@ p{
 body{
     background-color: #FEF9E7 ;
 }
-.colorIconoNav{
-    color:#1D8348;
-}
+
 nav{
     background-color: #D0D3D4 ;
 }
@@ -50,6 +48,18 @@ p{
     background-color: #FFFF66;
     border-radius: 10%;
 }
+
+.mision{
+    background-color: #A9DFBF;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+.vision{
+    background-color: #FFD54F ;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
 .letrasNav{
     color:#1D8348;
 }
@@ -119,5 +129,6 @@ p{
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    background-color: #ffd54f;
+    background-color: #99FA9D;
 }
+
