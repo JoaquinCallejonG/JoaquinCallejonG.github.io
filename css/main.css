@@ -15,7 +15,7 @@ h2{
 }
 li{
     font-family: 'Roboto Slab', serif;
-    font-weight: 500;
+    font-weight: 200;
 }
 h3{
     font-family: 'Roboto Slab', serif;
@@ -35,7 +35,7 @@ body{
 }
 
 nav{
-    background-color: #D0D3D4 ;
+    background-color: #f6f8f9 ;
 }
 
 p{
@@ -132,3 +132,9 @@ p{
     background-color: #99FA9D;
 }
 
+#img-index{
+    background-image: url('images/fondo.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+}
