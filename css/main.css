@@ -31,7 +31,7 @@ p{
 
 }
 body{
-    background-color: #FEF9E7 ;
+    background-color: #ebeae6 ;
 }
 
 nav{
@@ -125,16 +125,62 @@ p{
     padding-top: 100px !important;
     padding-bottom: 100px !important;
 }
+#row-home{
+    background-color: #42a016;
+   
+}
 .circulo{
     width: 140px;
     height: 140px;
     border-radius: 50%;
     background-color: #99FA9D;
 }
-
-#img-index{
-    background-image: url('images/fondo.jpeg');
+.img-index{
+    background-image: url('../images/fondo.jpeg') !important;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    height: 100% !important;
+    width: auto !important;
+    
+}
+.img-home{
+    background-image: url('../images/brotes.png') !important;
     background-size: cover;
     background-position: center;
+    margin-top: 50px;
+    height: 100% !important;
+    width: auto !important;
+    min-width: 300px !important;
+}
+
+.img-carrusel{
+    height: 100% !important;
+    width: auto !important;
+    min-width: 200px !important;
+}
+
+.fondo-texto{
+    position: relative;
+    display: block;
+    filter: blur(4px);
     
+}
+.sobre-texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    filter: blur(0px);
+}
+
+.bg-verano{
+    background-color: rgba(138, 247, 247, 0.779);
+}
+
+.bg-invierno{
+    background-color: rgba(108, 249, 129, 0.737);
+}
+
+.bg-especial{
+    background-color: rgba(255, 207, 131, 0.737);
 }
