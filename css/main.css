@@ -121,7 +121,7 @@ p{
 }
 
 #row-datos{
-    background-color: #16A085;
+    background-image: url('../images/vision1.jpg') !important;
     padding-top: 100px !important;
     padding-bottom: 100px !important;
 }
@@ -163,14 +163,13 @@ p{
 .fondo-texto{
     position: relative;
     display: block;
-    filter: blur(4px);
-    
+
 }
 .sobre-texto{
     position: absolute;
     top: 50%;
     left: 50%;
-    filter: blur(0px);
+    
 }
 
 .bg-verano{
