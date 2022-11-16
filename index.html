@@ -17,34 +17,122 @@
 </head>
 <body>
         <!-- ENCABZADO -->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top mb-0">
+        <div class="container mb-0">
+            <a class="navbar-brand">
+                <img class="logo" src="images/Logo-altue.png" alt="">
+            </a>
+            
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon colorIconoNav"></span>
+            </button>
 
-        <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
-          <div class="container-fluid">
-              <a class="navbar-brand">
-                  <img class="logo" src="images/Logo-altue.png" alt="">
-              </a>
-              
-              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon colorIconoNav"></span>
-                </button>
-  
-              <div class="collapse navbar-collapse nav justify-content-end" id="navbarsExample04">
-                  <ul class="navbar-nav nav">
-                      <li class="nav-item text-center"><a class="nav-link text-dark" href="index.html">INICIO</a></li>
-                      <li class="nav-item text-center"><a class="nav-link text-dark" href="instalaciones.html">COMPAÑIA</a></li>
-                      <li class="nav-item text-center"><a class="nav-link text-dark" href="instalaciones.html">INSTALACIONES</a></li>
-                      <li class="nav-item text-center"><a class="nav-link text-dark" href="servicios.html">SERVICIOS</a></li>
-                      <li class="nav-item text-center"><a class="nav-link text-dark" href="contacto.html">CONTACTO</a></li>
-                  </ul>
+            <div class="collapse navbar-collapse nav justify-content-end" id="navbarsExample04">
+                <ul class="navbar-nav nav">
+                    <li class="nav-item"><a class="nav-link text-secondary" href="home.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="company.html">COMPAÑÍA</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="instalaciones.html">INSTALACIONES</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="servicios.html">SERVICIOS</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="pt-5 mt-3">
+            <div class="pt-5 pb-5 img-home">
+                <div class=" fs-4 fs-lg-1 align-self-center mt-sm-5 w-auto">
+                    <h2 class=" text-center text-secundary text-shadow display-4 fw-bold lh-1">VIVERO ALTUE</h2>
+                    <p class=" text-center text-black mt-sm-5 ">VIVERO DE HORTALIZAS</p>
+                </div>
+            </div>
+    </section>
+        
+
+    <section class="pt-5 ">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-auto d-flex justify-content-center mb-3">
+                <div class="h-auto w-auto overflow-hidden  shadow-lg" id="row-home">
+                    <div class=" h-auto text-white text-shadow-1">
+                        <div class=" h-auto text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 fw-bold m-3">Nuestra compañia</h3>
+                            <div class="d-grid gap-2 d-md-flex justify-content-end shadow-lg mb-5">
+                                <button class="btn btn-outline-secondary btn-primary m-3" type="button"><a class="nav-link text-white" href="company.html">CONOCE MÁS</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-auto d-flex justify-content-center mb-3">
+                <div class="h-auto w-auto overflow-hidden  shadow-lg" id="row-home">
+                    <div class=" h-auto text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 fw-bold m-3">Nuestros servicios</h3>
+                        <div class="d-grid gap-2 d-md-flex justify-content-end shadow-lg mb-5">
+                            <button class="btn btn-outline-secondary btn-primary m-3" type="button"><a class="nav-link text-white" href="servicios.html">CONOCE MÁS</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mt-5">
+        <div class="row align-items-md-stretch">
+            <div class="col-md-6">
+                <div class="h-auto p-5 bg-light border rounded-3">
+                    <h2>Conoce de nuestros programas</h2>
+                    <p>Dada las diferentes temporadas, tenemos distintos productos los cuales varian dependiando de el clima los tiempos de produccion, entre otros factores. Conoce mas en el apartado de los servicios.</p>
+                    <button class="btn btn-outline-secondary btn-primary" type="button"><a class="nav-link text-white" href="servicios.html">CONOCE MÁS</a></button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="h-auto p-5 bg-light border rounded-3">
+                    <h2>Visita nuestras instalaciones</h2>
+                    <p>permite conocer a la organizacion a traves de contacto con los ejecutivos, los cuales permitiran tener contacto para saber a serca de las instalaciones y poder hablar mas respecto al producto, tiempos de finalizado, entre mas posibles dudas que se obtengan</p>
+                    <button class="btn btn-outline-secondary btn-primary" type="button"><a class="nav-link text-white" href="contacto.html">CONOCE MÁS</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="images/verano 1.png" class="d-block mx-lg-auto img-fluid text-center" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
               </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Plantas con las que trabajamos</h1>
+                <p class="lead">Trabaja con nosotros para conocer los productos y las especies con las cuales se puede trabajar, junto con los proyectos que desarrollamos</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button class="btn btn-outline-secondary btn-primary" type="button"><a class="nav-link text-white" href="servicios.html">CONOCE MÁS</a></button>
+                </div>
+              </div>
+            </div>
           </div>
-        </nav>
-   <div class="container">
-      <h2 class="text-dark">Trabaja con nosotros</h2>
-   </div>
+    </section>
+  
+    <div class=" w-100 bg-dark">
+        <footer class="py-3 my-4 ">
+            <div class=" p-3 bg-dark">
+                <ul class="nav justify-content-center pb-3 mb-3">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">INICIO</a></li>
+                    <li class="nav-item"><a href="instalaciones.html" class="nav-link px-2 text-muted">INSTALACIONES</a></li>
+                    <li class="nav-item"><a href="servicios.html" class="nav-link px-2 text-muted">SERVICIOS</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">CONTACTANOS</a></li>
+                  </ul>
+                <div class="row text-center text-black">
+                    <div class="col ml-auto">
+                        <p>Copyright &copy; 2022</p>
+                        <img class="logo" src="images/Logo-altue.png" alt="">
+                    </div>
+                </div>
+            </div> 
+        </footer>
+    </div>
 
-
-    
+        
+</body>   
     <!-- JavaScript Bundle with Popper -->
     <script src="js\script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
